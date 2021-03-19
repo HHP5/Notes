@@ -20,7 +20,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }catch{
             print("Error installing Realm \(error)")
         }
-        print(Realm.Configuration.defaultConfiguration.fileURL)
         return true
     }
 
